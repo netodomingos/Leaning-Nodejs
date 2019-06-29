@@ -1,0 +1,90 @@
+h1 {
+    background-color: gray;
+    background-image: url(/mirrorfashion/img/sobre-background.jpg);
+    text-align: center;
+    padding: '10px';
+    color: black;
+}
+
+h2 {
+    background-color: gray;
+    border-bottom: '2px'solid black;
+    text-align: center;
+    margin-top: '30px';
+}
+
+h3 {
+    background-color: gray;
+    text-align: center;
+    color: black;
+}
+
+figure {
+    background-color: #f2eded;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+p {
+    font-family: monospace;
+    text-align: left;
+    word-spacing: '3px';
+    text-indent: 15px;
+    padding: 0 45px;
+    color: black;
+}
+
+body {
+    color: #333333;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+
+
+}
+
+#diferencial {
+    color: black;
+}
+
+#historia {
+    color: black;
+}
+
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 25px 0;
+}
+
+#rodape img {
+    margin-right: 50px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 90px;
+}
+
+#dev {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #777;
+    font-family: monospace;
+
+}
+
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}

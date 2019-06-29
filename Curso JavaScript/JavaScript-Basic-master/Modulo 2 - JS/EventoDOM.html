@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elementos do DOM</title>
+    <style>
+        div#area {
+            background-color: blue;
+            color: azure;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="area">
+        FODAAAAAA
+
+    </div>
+
+    <script>
+        var a = document.getElementById('area');
+
+        a.addEventListener('onclick', clicar);
+        a.addEventListener('onmouseenter', entrou);
+        a.addEventListener('onmouseout', saiu);
+
+        function clicar() {
+            a.innerText = 'Clicou';
+            a.style.backgroundColor = 'red';
+        }
+
+        function entrou() {
+            a.innerText = 'Entrou';
+            a.style.backgroundColor = 'gray';
+        }
+
+
+        function saiu() {
+            a.innerText = 'Saiu';
+            a.style.backgroundColor = 'blue';
+        }
+    </script>
+</body>
+
+</html>

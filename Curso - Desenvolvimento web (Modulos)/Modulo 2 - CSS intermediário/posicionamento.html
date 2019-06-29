@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background: #007fc7;
+        }
+
+        #container {
+            background: #fff;
+            width: 800px;
+            margin: 20px auto;
+            padding: 10px 30px;
+            border-radius: 40px;
+            position: relative;
+        }
+
+        h1 {}
+
+        p {
+            width: 300px;
+        }
+
+        .fixed {
+            background: white;
+            border: 1px solid green;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            margin: 0px;
+            /* Acompanha a rolagem */
+        }
+
+        .absolut {
+            background: white;
+            border: 1px solid blue;
+            position: absolute;
+            /* Elementos se comportam, como se a caixa não
+            existisse */
+            top: 80px;
+            right: 60px;
+            /* Necessário que o container tenha alguma position */
+
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            /* Top, right, bottom e left*/
+            /* Funciona com números negativos */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Where does it come from?</h1>
+        <p class="fixed">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+            classical Latin
+            literature from 45 BC, making it over 2000 years old.</p>
+
+        <p class="relative">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+            of classical
+            Latin literature from 45 BC, making it over 2000 years old.</p>
+
+        <p class="absolut">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+            classical Latin literature from 45 BC, making it over 2000 years old.</p>
+    </div>
+
+</body>
+
+</html>

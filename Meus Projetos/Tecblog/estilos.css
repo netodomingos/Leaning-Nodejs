@@ -1,0 +1,155 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-size: 1em;
+        font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        background: #E6E6E6;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* 
+    ****    Area Layout ****
+    */
+
+    #area-cabecalho {
+        background-color: #f7b300;
+        padding: 15px;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+
+    #area-logo,
+    #area-menu {
+        padding: 10px;
+    }
+
+    #area-principal {
+        width: 920px;
+        margin: 0px auto;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    #area-postagens {
+        width: 660px;
+        float: left;
+
+    }
+
+    .area-lateral {
+        width: 240px;
+        float: right;
+    }
+
+    .postagem {
+        padding: 20px;
+        margin-bottom: 20px;
+        background: #FFF;
+        border-radius: 10px;
+
+    }
+
+    .conteudo-lateral {
+        border-radius: 10px;
+        background: #FFF;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .postagem-lateral {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .menu-lateral {
+        background: #FFF;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        font-size: 1em;
+        text-decoration: none;
+    }
+
+    #area-rodape {
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        clear: both;
+        background-color: #CCC;
+
+    }
+
+    /* 
+    ****  Formatações Links ****
+    */
+    a:link,
+    a:visited {
+        color: #f7b600;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+    #area-menu a:link,
+    #area-menu a:visited {
+        color: #FFF;
+        padding: 8px 12px;
+
+    }
+
+    #area-menu a:hover {
+        color: #f7b300;
+        background: #FFF;
+        text-decoration: none;
+    }
+
+    .link {
+        padding-top: 10px;
+        margin: 10px;
+
+    }
+
+
+    #area-rodape a {
+        color: black;
+    }
+
+    /* 
+    ****  Formatações Gerais ****
+    */
+    h1 {
+        color: #4e4e4e;
+        font-size: 2.5em;
+    }
+
+    h2 {
+        color: #f7b600;
+
+    }
+
+    h3 {
+        text-align: center;
+        color: #565656;
+        background: #CCC;
+    }
+
+    .data-postagem {
+        font-size: 0.8em;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        display: block;
+        border: 1px solid #FFF;
+    }
+
+    .branco {
+        color: white;
+
+    }

@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>links</title>
+    <style>
+        p {}
+
+        a {
+            padding: 10px;
+            margin: 5px;
+            text-decoration: none;
+            /* Tira aquela listra no link */
+
+        }
+
+        a:link {
+            color: rgb(74, 147, 230);
+        }
+
+        /* Links não visitados */
+
+        a:visited {
+            color: brown;
+        }
+
+        /* Links visitados */
+        a:hover {
+            color: black;
+        }
+
+        /* Muda a cor quando vc passa o mouse */
+        a:active {
+            color: blue;
+        }
+
+        /* Quando se clica, muda a cor */
+
+        #container {
+            text-align: center;
+            width: 500px;
+            border: 1px solid red;
+            background-color: rgb(145, 82, 82);
+            border-radius: 10px;
+            position: relative;
+            bottom: -630px;
+            left: 400px;
+
+        }
+    </style>
+
+<body>
+    <div id="container">
+        <p>
+            <a href="https://www.Google.com.br"> Google </a> |
+            <a href="https://www.github.com/donzito.js">github</a> |
+            <a href="https://www.instagram.com/donzitojs">instagram</a>
+        </p>
+    </div>
+</body>
+</head>
+
+</html>

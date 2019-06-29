@@ -1,0 +1,36 @@
+ul#barra-horizontal {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 720px;
+    background: #159cb0 url(fundo-horizontal.png) repeat-x;
+    /*Repete só na horizontal */
+    float: left;
+}
+
+ul#barra-horizontal li {
+    /* border: 1px solid red; */
+    float: left;
+}
+
+ul#barra-horizontal a {
+    /* border-left: 1px solid red; */
+    display: block;
+
+    padding: 20px;
+    line-height: 6px;
+    text-decoration: none;
+    color: #fff;
+    background: url(divisor.png) repeat-y left top;
+}
+
+ul#barra-horizontal .primeiro a {
+    background: none;
+}
+
+ul#barra-horizontal a:hover,
+.marcado a {
+    color: #085662;
+    background: #44cade;
+}

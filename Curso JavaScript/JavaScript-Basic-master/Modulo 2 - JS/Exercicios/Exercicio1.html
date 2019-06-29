@@ -1,0 +1,29 @@
+<html>
+
+<head>
+
+<body>
+    <button id="botao">Aperte</button>
+    <div id="box"></div>
+    <script>
+        var boxElement = document.getElementById('box');
+        var btnElement = document.getElementById('botao');
+
+
+
+
+        boxElement.onclick = function () {
+            var createBox = document.createAttribute('a');
+
+            createBox.style.height = 100;
+            createBox.style.width = 100;
+            createBox.style.backgroundColor = 'Blue';
+
+            boxElement.appendChild(btnElement);
+
+        }
+    </script>
+</body>
+</head>
+
+</html>

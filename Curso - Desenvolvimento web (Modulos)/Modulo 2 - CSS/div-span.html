@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>div - span</title>
+    <style>
+        #header {
+            background-color: rgba(7, 18, 77, 0.541)
+        }
+
+        #conteudo {
+            background-color: red
+        }
+
+        #assinatura {
+            color: yellow
+        }
+
+        .produto {
+            color: aqua
+        }
+
+        .azul {
+            color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Header inicio-->
+    <div id="header">
+        <img src="/Modulo 2 - CSS/amazon_PNG21.png" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contatos</li>
+        </ul>
+    </div>
+    <!-- Fim do Header-->
+
+    <!-- Div - Divide os elementos entre linhas.-->
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+
+        <div class="produto">
+            Produto 2
+        </div>
+
+        <div>
+            Produto 3
+        </div>
+
+    </div>
+    <!-- Fim da Div-->
+
+    <!-- Span - Agrupa os elementos lado a lado.-->
+    <span id="assinatura">
+        Geraldo
+    </span>
+    <span>
+        Domingos
+    </span>
+
+    <div id="rodape">
+        Todos os <span class="azul">direitos</span> reservados.
+    </div>
+    <!-- Fim do Span-->
+</body>
+
+</html>

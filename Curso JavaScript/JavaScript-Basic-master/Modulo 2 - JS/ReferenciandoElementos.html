@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+<body>
+    <div id="app">
+        <input type="text" name="nome" />
+        <button class="botao">Adicionar</button>
+
+
+
+
+    </div>
+    <script>
+        var inputElement
+
+        inputElement = document.getElementById('nome'); //Busca pelo ID
+        inputElement = document.getElementsByTagName('input')[0]; //Usa-se o vetor, pra referenciar qual Input
+        inputElement = document.getElementsByClassName('name')[0]; // Busca pelo nome da Class
+        inputElement = document.querySelector('input[name = nome]'); // Busca no Input, só um name
+        inputElement = document.querySelectorAll('input[name = nome]'); // Busca no Input, todos os names
+
+        //
+
+        var btnElement, inputValue;
+
+        inputValue = document.querySelector('input[name = nome'); // Busca o nome
+        btnElement = document.querySelector('button.botao'); // Bscca o button
+        btnElement.onclick = function () {
+            var text = inputValue.value; // Recupera o nome
+            alert(text);
+        }
+        console.log(inputElement);
+    </script>
+</body>
+</head>
+
+</html>

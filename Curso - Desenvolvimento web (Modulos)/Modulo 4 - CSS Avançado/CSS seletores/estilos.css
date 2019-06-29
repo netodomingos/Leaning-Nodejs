@@ -1,0 +1,17 @@
+/* Seletor Universal */
+
+* {
+    border: 1px solid red;
+}
+
+/* Seletor de classe */
+
+.verde {
+    color: green;
+}
+
+/* Seletor de id */
+
+#p {
+    background: blue;
+}

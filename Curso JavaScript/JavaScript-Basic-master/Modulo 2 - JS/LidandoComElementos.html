@@ -1,0 +1,29 @@
+<html>
+
+<head>
+
+<body>
+    <div id="app">
+        <input id="nome" />
+    </div>
+
+    <script>
+        var linkElement, textElement, containerElement, inputElement;
+
+        linkElement = document.createElement('a'); //Criou um Elemento que vai referenciar algo na div
+        linkElement.setAttribute('href', 'https://www.youtube.com/watch?v=slWZs3gdb1c');
+        linkElement.setAttribute('title', 'Muito Importante!!!!');
+
+        textElement = document.createTextNode('Você precisa ver isto!');
+        linkElement.appendChild(textElement); // TextElement é "Filho" de LinkElement
+
+        containerElement = document.querySelector('#app');
+        containerElement.appendChild(linkElement); // LinkElement vai para dentro da <div app
+
+        inputElement = document.querySelector('#nome');
+        containerElement.removeChild(inputElement);
+    </script>
+</body>
+</head>
+
+</html>

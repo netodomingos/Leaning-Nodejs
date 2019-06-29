@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta utf-8>
+    <title>boxmodel</title>
+    <style>
+        .conteudo2 {
+            background: red;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+        }
+
+        #conteudo {
+            border: 5px solid red;
+            background: rgb(62, 117, 62);
+        }
+
+        .clear {
+            clear: both;
+            /* Limpa o espaço deixado pelo float */
+
+        }
+    </style>
+
+<body id="principal">
+
+    <div id="conteudo">
+        <div class="conteudo2">
+
+        </div>
+
+        <div class="conteudo2">
+
+        </div>
+
+        <div class="conteudo2">
+
+        </div>
+        <div class="clear"></div>
+    </div>
+
+</body>
+
+</head>
+
+</html>

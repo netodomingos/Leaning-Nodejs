@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Primeiros Passo com DOM</title>
+
+<body>
+
+    <style>
+        body {
+            background-color: blanchedalmond;
+            font-size: 40px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+    <h1>Iniciando estudos com o DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em <strong>JavaScript</strong></p>
+    <div>Clique em mim</div>
+
+    <script>
+        var p1 = document.getElementsByTagName('p')[1];
+        window.document.write('Aqui está escrito assim ' + p1.innerText);
+
+        p1.style.color = 'Blue';
+    </script>
+</body>
+</head>
+
+</html>

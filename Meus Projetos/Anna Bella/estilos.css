@@ -1,0 +1,54 @@
+#principal {
+    width: 900px;
+}
+
+#menu {
+    background: #c5c5b2;
+    text-align: center;
+    padding: 13px;
+}
+
+#conteudo {
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+#rodape {
+    text-align: center;
+    color: #4b566a;
+    text-decoration: none;
+    padding: 3px;
+}
+
+a {
+    text-align: center;
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+body {
+    background: #d2d2c1 url('/Front-End/Anna Bella/imagens/fundo.png');
+    font-size: 16px;
+    padding-left: 170px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
+
+.img {
+
+    border: outset #c5c5b2 7px;
+}
+
+.contato {
+    padding-top: 10px;
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}

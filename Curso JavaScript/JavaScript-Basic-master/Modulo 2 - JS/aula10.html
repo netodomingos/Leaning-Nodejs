@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Calculadora do pai</h1>
+    <input type="number" name="n1" id="n1">
+    <input type="number" name="n2" id="n2">
+    <input type="button" value="somar" onclick="somar()">
+    <p></p>
+    <h1>Resultado: </h1>
+    <div id="Resultado">Resultado: </div>
+    <script>
+        function somar() {
+
+            var n1, n2, num1, num2, s, Resultado;
+
+            n1 = document.querySelector('input#n1');
+            n2 = document.querySelector('input#n2');
+            Resultado = document.querySelector('div#Resultado')
+
+            num1 = Number(n1.value)
+            num2 = Number(n2.value);
+
+            s = num1 + num2;
+
+            Resultado.innerHTML = `A soma entre ${num1} e ${num2} é ${Resultado}`
+
+
+
+        }
+    </script>
+</body>
+
+</html>

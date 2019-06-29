@@ -1,0 +1,10 @@
+body {
+    background-image: url('/Nasa Site/giphy.gif')
+}
+
+#logo {
+    padding: 30px;
+    width: 250px;
+    height: 200px;
+
+}
